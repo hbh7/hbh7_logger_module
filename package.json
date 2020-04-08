@@ -1,11 +1,15 @@
 {
   "name": "hbh7_logger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
+  "repository": "https://github.com/hbh7/hbh7_logger_module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hbh7",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "optionalDependencies": {
+    "influx": "^5.5.1"
+  }
 }
